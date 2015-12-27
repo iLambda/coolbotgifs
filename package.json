@@ -1,0 +1,44 @@
+{
+  "name": "math-artist",
+  "version": "0.1.0",
+  "description": "An artist bot which uses genetic algorithms on mathematical expression trees to generate artsy animated GIFs.",
+  "main": "generate.js",
+  "scripts": {
+    "start": "node generate.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iLambda/math-artist.git"
+  },
+  "keywords": [
+    "math",
+    "artist",
+    "bot",
+    "gif",
+    "animated",
+    "artsy",
+    "rpn",
+    "expr",
+    "tree",
+    "expression",
+    "tree",
+    "reverse",
+    "polish",
+    "notation"
+  ],
+  "author": "Matthieu 'Freeman' Vienot <me@ilambda.io> (http://blog.ilambda.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iLambda/math-artist/issues"
+  },
+  "homepage": "https://github.com/iLambda/math-artist",
+  "dependencies": {
+    "expr-tree": "^0.1.2",
+    "gamma": "^1.0.0",
+    "lodash": "^3.10.1",
+    "moment": "^2.10.6",
+    "string-format": "^0.5.0",
+    "t": "^0.5.1"
+  }
+}
