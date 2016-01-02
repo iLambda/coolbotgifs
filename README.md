@@ -1,6 +1,13 @@
-# math-artist
+# coolbotgifs
 An artist bot which uses genetic algorithms on mathematical expression trees to generate artsy animated GIFs.
 
+### install
+To install the algorithm, clone the repository.
+You will need to install [node-canvas](https://github.com/Automattic/node-canvas#installation) to be able to start the algorithm. Follow the link and install node-canvas dependencies. Then type :
+```bash
+$ npm install
+```
+### start
 To start the algorithm, you can type :
 ```bash
 $ npm start
@@ -11,7 +18,7 @@ $ nodejs generate.js
 
 # how does it work ?
 
-Math-artist is a bot who creates GIFs. Internally, it starts by creating a
+**Coolbotgifs** is a bot who creates GIFs. Internally, it starts by creating a
 lot of random [mathematical functions](https://en.wikipedia.org/wiki/Binary_expression_tree). Those functions all depend on three parameters.
 Then, it uses a [genetic algorithm](https://fr.wikipedia.org/wiki/Algorithme_g%C3%A9n%C3%A9tique) to mimic the process of evolution and sort
 potentially good or bad looking expressions. Once the overall quality of
@@ -30,7 +37,7 @@ internally to generate the GIF. The generated GIF is entierely decribed by the a
 
 # customize
 
-You can easily change the tastes of math-artist by editing the genetic algorithm
+You can easily change the tastes of the algorithm by editing the genetic algorithm
 inside **generate.js**, or even implement a whole new type of selection !
 Changing the parameters of the genetic algorithm will drastically modify the results :
 
